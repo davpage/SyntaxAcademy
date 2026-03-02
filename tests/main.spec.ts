@@ -27,7 +27,7 @@ it('handles not found pages', async ({ page }) => {
   await page.getByRole('heading', { name: 'Страница не найдена' });
 });
 
-it("handles not found pages for routes that don't match the middleware", async ({ page }) => {
+it("handles not found pages for routes that don't match the proxy", async ({ page }) => {
   await page.goto('/test.png');
   await page.getByRole('heading', { name: 'This page could not be found.' });
 

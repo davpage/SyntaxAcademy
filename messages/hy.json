@@ -18,7 +18,7 @@
     "title": "Էջը չի գտնվել"
   },
   "Loader": {
-    "loading": "Բեռնվում է"
+    "loading": "Բեռնում"
   },
   "nav": {
     "courses": "Դասընթացներ",
@@ -38,22 +38,118 @@
     "start": "Սկսի՛ր սովորել հիմա"
   },
   "courses": {
-    "title": "Ընտրված Դասընթացներ",
+    "title": "Դասընթացներ",
+
     "html": {
       "title": "HTML",
-      "desc": "Կազմիր բովանդակություն՝ պրոֆեսիոնալ ձևով։"
+      "desc": "Կառուցիր վեբ էջերի հիմքը՝ ճիշտ և սեմանտիկ մոտեցմամբ.",
+
+      "badge1": "Սկսնակ",
+      "badge2": "Հիմնարար",
+
+      "level": "Beginner",
+      "duration": "2 շաբաթ",
+      "projects": "2 նախագիծ",
+
+      "detailsTitle": "Ինչ կսովորես",
+      "point1": "Սեմանտիկ HTML և ճիշտ կառուցվածք",
+      "point2": "Ֆորմաներ, մեդիա և հասանելիություն",
+      "point3": "SEO-friendly markup",
+
+      "skills": [
+        "HTML5",
+        "Semantic Layout",
+        "Accessibility",
+        "SEO Basics"
+      ],
+
+      "ctaHintStrong": "Սկսիր հիմքից",
+      "ctaHint": "HTML-ը քո developer ճանապարհի առաջին քայլն է։",
+      "cta": "Սկսել"
     },
+
     "css": {
       "title": "CSS",
-      "desc": "Ոճավորիր կայքդ՝ այն դարձնելով գեղեցիկ։"
+      "desc": "Ստեղծիր ժամանակակից, responsive և գեղեցիկ UI։",
+
+      "badge1": "UI Design",
+      "badge2": "Responsive",
+
+      "level": "Beginner → Intermediate",
+      "duration": "3 շաբաթ",
+      "projects": "3 նախագիծ",
+
+      "detailsTitle": "Ինչ կսովորես",
+      "point1": "Flexbox և Grid layout համակարգեր",
+      "point2": "Responsive design և media queries",
+      "point3": "Animations և modern UI techniques",
+
+      "skills": [
+        "Flexbox",
+        "CSS Grid",
+        "Responsive Design",
+        "Animations"
+      ],
+
+      "ctaHintStrong": "Դարձրու գեղեցիկ",
+      "ctaHint": "Սովորիր ստեղծել պրոֆեսիոնալ տեսք ունեցող ինտերֆեյսներ։",
+      "cta": "Սկսել"
     },
+
     "js": {
       "title": "JavaScript",
-      "desc": "Դարձրու կայքերդ ինտերակտիվ։"
+      "desc": "Ավելացրու տրամաբանություն և իրական ինտերակցիա կայքերին։",
+
+      "badge1": "Logic",
+      "badge2": "Interactive",
+
+      "level": "Intermediate",
+      "duration": "4 շաբաթ",
+      "projects": "4 նախագիծ",
+
+      "detailsTitle": "Ինչ կսովորես",
+      "point1": "Variables, functions և closures",
+      "point2": "DOM manipulation և events",
+      "point3": "Async/await և API աշխատանք",
+
+      "skills": [
+        "JavaScript ES6+",
+        "DOM",
+        "Async Programming",
+        "API Integration"
+      ],
+
+      "ctaHintStrong": "Ավելացրու ուժ",
+      "ctaHint": "JavaScript-ը դարձնում է կայքերը կենդանի։",
+      "cta": "Սկսել"
     },
+
     "react": {
       "title": "React",
-      "desc": "Կառուցիր դինամիկ օգտագործվող ինտերֆեյսներ։"
+      "desc": "Կառուցիր արագ և մասշտաբվող web հավելվածներ։",
+
+      "badge1": "Frontend",
+      "badge2": "SPA",
+
+      "level": "Advanced",
+      "duration": "5 շաբաթ",
+      "projects": "5 նախագիծ",
+
+      "detailsTitle": "Ինչ կսովորես",
+      "point1": "Components և State management",
+      "point2": "React Hooks և reusable logic",
+      "point3": "Routing և production architecture",
+
+      "skills": [
+        "React",
+        "Hooks",
+        "Component Architecture",
+        "SPA Development"
+      ],
+
+      "ctaHintStrong": "Կառուցիր իրական App",
+      "ctaHint": "React-ը industry standard frontend framework է։",
+      "cta": "Սկսել"
     }
   },
   "why": {
@@ -112,8 +208,8 @@
     "signOut": "Դուրս գալ",
     "rememberPassword": "Հիշել գաղտնաբառը",
     "requestSent": "Հարցումը հաջողությամբ ուղարկվել է ձեր էլ. փոստին",
-    "redirecting": "Գաղտնաբառի վերականգնումը հաջողությամբ ավարտվեց։ Վերահասցեավորվում է մուտք գործելու համար..."
-
+    "redirecting": "Գաղտնաբառի վերականգնումը հաջողությամբ ավարտվեց։ Վերահասցեավորվում է մուտք գործելու համար...",
+    "genericError": "Ինչ-որ բան սխալ է գնացել։ Խնդրում ենք կրկին փորձել։"
   },
   "validation": {
     "nameRequired": "Անունը պարտադիր է",

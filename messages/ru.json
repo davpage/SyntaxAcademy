@@ -38,22 +38,118 @@
     "start": "Начать обучение сейчас"
   },
   "courses": {
-    "title": "Избранные Курсы",
+    "title": "Курсы",
+
     "html": {
       "title": "HTML",
-      "desc": "Структурируйте контент как профессионал."
+      "desc": "Создавай правильную структуру веб-страниц.",
+
+      "badge1": "Начальный",
+      "badge2": "База",
+
+      "level": "Beginner",
+      "duration": "2 недели",
+      "projects": "2 проекта",
+
+      "detailsTitle": "Что ты изучишь",
+      "point1": "Семантическая HTML-разметка",
+      "point2": "Формы, медиа и доступность",
+      "point3": "SEO-оптимизированная структура",
+
+      "skills": [
+        "HTML5",
+        "Semantic Layout",
+        "Accessibility",
+        "SEO Basics"
+      ],
+
+      "ctaHintStrong": "Начни с основы",
+      "ctaHint": "HTML — первый шаг разработчика.",
+      "cta": "Начать"
     },
+
     "css": {
       "title": "CSS",
-      "desc": "Стилизуйте ваши сайты красиво."
+      "desc": "Создавай современный и адаптивный UI.",
+
+      "badge1": "UI Design",
+      "badge2": "Responsive",
+
+      "level": "Beginner → Intermediate",
+      "duration": "3 недели",
+      "projects": "3 проекта",
+
+      "detailsTitle": "Что ты изучишь",
+      "point1": "Flexbox и Grid layouts",
+      "point2": "Responsive design",
+      "point3": "Анимации и современные UI техники",
+
+      "skills": [
+        "Flexbox",
+        "CSS Grid",
+        "Responsive Design",
+        "Animations"
+      ],
+
+      "ctaHintStrong": "Сделай красиво",
+      "ctaHint": "Научись создавать профессиональный интерфейс.",
+      "cta": "Начать"
     },
+
     "js": {
       "title": "JavaScript",
-      "desc": "Сделайте ваши сайты интерактивными."
+      "desc": "Добавь логику и интерактивность сайтам.",
+
+      "badge1": "Logic",
+      "badge2": "Interactive",
+
+      "level": "Intermediate",
+      "duration": "4 недели",
+      "projects": "4 проекта",
+
+      "detailsTitle": "Что ты изучишь",
+      "point1": "Переменные, функции и closures",
+      "point2": "DOM и события",
+      "point3": "Async/await и работа с API",
+
+      "skills": [
+        "JavaScript ES6+",
+        "DOM",
+        "Async Programming",
+        "API Integration"
+      ],
+
+      "ctaHintStrong": "Добавь мощь",
+      "ctaHint": "JavaScript оживляет веб-страницы.",
+      "cta": "Начать"
     },
+
     "react": {
       "title": "React",
-      "desc": "Создавайте динамичные пользовательские интерфейсы."
+      "desc": "Создавай быстрые масштабируемые приложения.",
+
+      "badge1": "Frontend",
+      "badge2": "SPA",
+
+      "level": "Advanced",
+      "duration": "5 недель",
+      "projects": "5 проектов",
+
+      "detailsTitle": "Что ты изучишь",
+      "point1": "Компоненты и управление состоянием",
+      "point2": "React Hooks",
+      "point3": "Routing и архитектура production",
+
+      "skills": [
+        "React",
+        "Hooks",
+        "Component Architecture",
+        "SPA Development"
+      ],
+
+      "ctaHintStrong": "Создай настоящее приложение",
+      "ctaHint": "React — индустриальный стандарт frontend.",
+      "cta": "Начать"
     }
   },
   "why": {
@@ -112,8 +208,8 @@
     "signOut": "Выйти",
     "rememberPassword": "Запомнить пароль",
     "requestSent": "Запрос успешно отправлен на вашу почту",
-    "redirecting": "Сброс пароля пройден успешно. Перенаправление для входа..."
-
+    "redirecting": "Сброс пароля пройден успешно. Перенаправление для входа...",
+    "genericError": "Что-то пошло не так. Пожалуйста, попробуйте еще раз."
   },
   "validation": {
     "nameRequired": "Имя обязательно",

@@ -15,3 +15,14 @@
     display: inline-block;
     animation: blink 1.5s step-start infinite;
 }
+
+
+/* Cut / notch effect on the panel's top-left corner so the selected tab looks attached */
+.courses-panel-notch {
+    -webkit-mask:
+            radial-gradient(18px at 18px 18px, #0000 98%, #000) top left,linear-gradient(#000 0 0);
+    mask:
+            radial-gradient(18px at 18px 18px, transparent 98%, black) top left, linear-gradient(black 0 0);
+    -webkit-mask-composite: source-over;
+    mask-composite: add;
+}

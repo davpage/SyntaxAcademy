@@ -36,22 +36,118 @@
     "start": "Start Learning Now"
   },
   "courses": {
-    "title": "Featured Courses",
+    "title": "Courses",
+
     "html": {
       "title": "HTML",
-      "desc": "Structure your content like a pro."
+      "desc": "Build clean and structured web pages the right way.",
+
+      "badge1": "Beginner",
+      "badge2": "Foundation",
+
+      "level": "Beginner",
+      "duration": "2 weeks",
+      "projects": "2 projects",
+
+      "detailsTitle": "What you will learn",
+      "point1": "Semantic HTML structure",
+      "point2": "Forms, media and accessibility",
+      "point3": "SEO-optimized markup",
+
+      "skills": [
+        "HTML5",
+        "Semantic Layout",
+        "Accessibility",
+        "SEO Basics"
+      ],
+
+      "ctaHintStrong": "Start from the basics",
+      "ctaHint": "HTML is the first step in every developer’s journey.",
+      "cta": "Start"
     },
+
     "css": {
       "title": "CSS",
-      "desc": "Style your websites beautifully."
+      "desc": "Create modern, responsive and beautiful user interfaces.",
+
+      "badge1": "UI Design",
+      "badge2": "Responsive",
+
+      "level": "Beginner → Intermediate",
+      "duration": "3 weeks",
+      "projects": "3 projects",
+
+      "detailsTitle": "What you will learn",
+      "point1": "Flexbox and Grid layouts",
+      "point2": "Responsive design techniques",
+      "point3": "Animations and modern UI styling",
+
+      "skills": [
+        "Flexbox",
+        "CSS Grid",
+        "Responsive Design",
+        "Animations"
+      ],
+
+      "ctaHintStrong": "Make it beautiful",
+      "ctaHint": "Learn to build clean and professional interfaces.",
+      "cta": "Start"
     },
+
     "js": {
       "title": "JavaScript",
-      "desc": "Make your websites interactive."
+      "desc": "Add logic, interaction and real behavior to websites.",
+
+      "badge1": "Logic",
+      "badge2": "Interactive",
+
+      "level": "Intermediate",
+      "duration": "4 weeks",
+      "projects": "4 projects",
+
+      "detailsTitle": "What you will learn",
+      "point1": "Variables, functions and closures",
+      "point2": "DOM manipulation and events",
+      "point3": "Async/await and API integration",
+
+      "skills": [
+        "JavaScript ES6+",
+        "DOM",
+        "Async Programming",
+        "API Integration"
+      ],
+
+      "ctaHintStrong": "Add real power",
+      "ctaHint": "JavaScript brings websites to life.",
+      "cta": "Start"
     },
+
     "react": {
       "title": "React",
-      "desc": "Build dynamic user interfaces."
+      "desc": "Build fast and scalable modern web applications.",
+
+      "badge1": "Frontend",
+      "badge2": "SPA",
+
+      "level": "Advanced",
+      "duration": "5 weeks",
+      "projects": "5 projects",
+
+      "detailsTitle": "What you will learn",
+      "point1": "Components and state management",
+      "point2": "React Hooks and reusable logic",
+      "point3": "Routing and production architecture",
+
+      "skills": [
+        "React",
+        "Hooks",
+        "Component Architecture",
+        "SPA Development"
+      ],
+
+      "ctaHintStrong": "Build a real app",
+      "ctaHint": "React is the industry standard frontend framework.",
+      "cta": "Start"
     }
   },
   "why": {
@@ -110,7 +206,8 @@
     "signOut": "Sign Out",
     "rememberPassword": "Remember Password",
     "requestSent": "Request Sent To Your Mail Successfully",
-    "redirecting": "Password reset successful. Redirecting To Sign In..."
+    "redirecting": "Password reset successful. Redirecting To Sign In...",
+    "genericError": "Something went wrong. Please try again."
   },
   "validation": {
     "nameRequired": "Name is required",
